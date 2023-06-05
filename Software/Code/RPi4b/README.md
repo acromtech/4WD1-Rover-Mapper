@@ -1,7 +1,7 @@
 # Raspberry Pi code
 ## Description
-* main.cpp -> robot initialisations and process (manual/automatic)
-* Robot.h -> Check or change sensors/actuators (wiringPi) pinout
+* `main.cpp` robot initialisations and process (manual/automatic)
+* `Robot.h` Check or change sensors/actuators (wiringPi) pinout
 
 ## RaspberryPi installation
 ### Open-ssh
