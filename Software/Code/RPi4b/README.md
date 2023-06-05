@@ -5,7 +5,7 @@
 
 ## Prerequisite
 **Ubuntu 22.04 LTS on your Laptop/Desktop**
-> To install [Ubuntu as dualboot] (https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html)(with Windows 11).
+> To install [Ubuntu as dualboot](https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html) (with Windows 11).
 
 **Ubuntu 22.04 LTS on your RaspberryPi**
 > To install Ubuntu you can use [RaspberryPi Imager](https://www.raspberrypi.com/software/)
