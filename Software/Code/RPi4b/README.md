@@ -1,11 +1,11 @@
 # Raspberry Pi code powered by ROS
 ## Description
 * `main.cpp` robot initialisations and process (manual/automatic)
-* `Robot.h` Check or change sensors/actuators (wiringPi) pinout
+* `Robot.h` check or change sensors/actuators (wiringPi) pinout
 
 ## Prerequisite
 **Ubuntu 22.04 LTS on your Laptop/Desktop**
-> To install Ubuntu as dualboot (with Windows 11) check the well explain [lecrabeinfo tutorial](https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html).
+> To install [Ubuntu as dualboot] (https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html)(with Windows 11).
 
 **Ubuntu 22.04 LTS on your RaspberryPi**
 > To install Ubuntu you can use [RaspberryPi Imager](https://www.raspberrypi.com/software/)
