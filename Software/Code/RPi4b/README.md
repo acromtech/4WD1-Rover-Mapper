@@ -30,6 +30,15 @@ Ubuntu ships with a firewall configuration tool called UFW. If the firewall is e
 sudo ufw allow ssh
 ```
 
+To connect to your Ubuntu machine over LAN invoke the ssh command followed by the username and the IP address in the following format:
+```
+ssh username@ip_address
+```
+> If you don’t know your IP address you can easily find it using the ip command :
+> ```
+> ip a
+> ```
+
 ### ROS
 To install ROS check the [website](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
