@@ -35,7 +35,7 @@ Ubuntu ships with a firewall configuration tool called UFW. If the firewall is e
 ```
 sudo ufw allow ssh
 ```
-## Launch SSH connection
+### Launch SSH connection
 To connect to your Ubuntu machine over LAN invoke the ssh command followed by the username and the IP address in the following format:
 ```
 ssh username@ip_address
@@ -46,7 +46,7 @@ ssh username@ip_address
 > ```
 
 ### ROS 2 Humble Hawksbill installation
-**Install [ROS 2 Humble Hawksbill](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) on your RaspberryPi and your Laptop/Desktop**
+Install [ROS 2 Humble Hawksbill](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) on your **RaspberryPi and your Laptop/Desktop**
 ```
 sudo apt update && sudo apt install locales
 sudo locale-gen en_US en_US.UTF-8
@@ -69,7 +69,7 @@ sudo apt install ros-humble-ros-base
 sudo apt install ros-dev-tools
 ```
 
-> **Test your installation**
+> Test your installation
 > ```
 > # In one terminal (connect to your RaspabrryPi in SSH and) launch the talker program
 > source /opt/ros/humble/setup.bash
@@ -99,15 +99,15 @@ sudo apt install ros-dev-tools
 > ...
 > ```
 
-**Install [colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) on your RaspberryPi only**
+Install [colcon](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html) on your **RaspberryPi only**
 ```
 sudo apt install python3-colcon-common-extensions
 ```
-**Configure your [ROS 2 Humble Hawksbill environment](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html) on your RaspberryPi and your Laptop/Desktop**
+Configure your [ROS 2 Humble Hawksbill environment](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html) on your RaspberryPi and your Laptop/Desktop
 ```
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 ```
-> **Re-open 2 new terminal and verify the ROS 2 Humble Hawksbill environnement**
+> Re-open 2 new terminal and verify the ROS 2 Humble Hawksbill environnement
 > ```
 > # In one terminal
 > ros2 run demo_nodes_cpp talker
@@ -116,6 +116,6 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 > ros2 run demo_nodes_py listener
 > ```
 
-*Check the [Articulated Robotics](https://www.youtube.com/watch?v=uWzOk0nkTcI) video for more installation informations. 
+*Check the [Articulated Robotics](https://www.youtube.com/watch?v=uWzOk0nkTcI) video for more installation informations.*
 
-WARNING : The video show an older version of ROS installation.*
+*WARNING : The video show an older version of ROS installation.*
