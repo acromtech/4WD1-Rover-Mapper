@@ -1,9 +1,9 @@
-# Code for Raspberry Pi
+# Raspberry Pi code
 ## Description
 * main.cpp -> robot initialisations and process (manual/automatic)
 * Robot.h -> Check or change sensors/actuators (wiringPi) pinout
 
-## Installation on RaspberryPi
+## RaspberryPi installation
 ### Open-ssh
 
 Open the terminal with Ctrl+Alt+T and install the openssh-server package:
@@ -33,7 +33,7 @@ sudo ufw allow ssh
 ### ROS
 To install ROS check the [website](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
 
-## Installation on Laptop/Desktop
+## Laptop/Desktop installation
 ### Ubuntu (dual boot)
 To install Ubuntu as dualboot (with Windows 11) check the well explain [lecrabeinfo tutorial](https://lecrabeinfo.net/installer-ubuntu-22-04-lts-en-dual-boot-avec-windows.html).
 
